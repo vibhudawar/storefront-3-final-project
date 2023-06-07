@@ -29,6 +29,20 @@ Designed an Ecommerce API, based on Django, MySQL database, that provides variou
 [ER Diagram](https://drive.google.com/file/d/1wwywakU1TYU3B6axd5d7H0hoVutDYBYS/view?usp=sharing)
 
 
+## Useful Endpoints
+- http://127.0.0.1:8000/store/ : Various operations on the store
+- http://127.0.0.1:8000/auth/users/ : Registration Endpoint
+- http://127.0.0.1:8000/auth/jwt/create : Login Endpoint
+- http://127.0.0.1:8000/auth/users/me/ : User Profile Endpoint
+- http://127.0.0.1:8000/store/customers/me/ : Customer Profile Endpoint
+- http://127.0.0.1:8000/store/carts/ : Cart Creation Endpoint
+- http://127.0.0.1:8000/store/products/ : View all the products
+- http://127.0.0.1:8000/store/products/<prod: id>/ : View details related to a particular product
+- http://127.0.0.1:8000/store/carts/<cart:id>/items/ : Insert the products in a particular Cart Endpoint
+- http://127.0.0.1:8000/store/carts/<cart:id>/items/<item:id>/ : Update the inserted items in the Cart
+- http://127.0.0.1:8000/store/orders/ : Details of the orders by user
+
+
 ## Tech Stack
 
 - **Server:** Django (Python)
