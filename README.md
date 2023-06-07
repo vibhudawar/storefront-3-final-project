@@ -25,6 +25,7 @@ Designed an Ecommerce API, based on Django, MySQL database, that provides variou
   <img src="screenshots/db_structure.png" width="1000">
 </p>
 
+
 ## ER Diagram:
 [ER Diagram](https://drive.google.com/file/d/1wwywakU1TYU3B6axd5d7H0hoVutDYBYS/view?usp=sharing)
 
